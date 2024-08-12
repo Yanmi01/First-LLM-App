@@ -1,31 +1,14 @@
-# Project Name
+# A Basic LLm Q&A system using FastAPI
 
-This repository contains the code for the project "first LLM App".
+This repository contains the code for my first LLM project. Remember to first install the requiremets before runnung the app.
 
-## Description
+To run app.py, run the code below in your terminai
+'''uvicorn app:app --host 127.0.0.1 --port 5000 --reload'''
 
-The "first LLM App" is a [insert brief description of the app here].
-
-## Installation
-
-To install and run the "first LLM App", follow these steps:
-
-1. Clone the repository to your local machine.
-2. [Insert any additional installation steps here].
-
-## Usage
-
-To use the "first LLM App", [insert instructions on how to use the app here].
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to the "first LLM App", please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch.
-3. Make your changes.
-4. Submit a pull request.
-
-## License
-
-This project is licensed under the [insert license name here]. See the [LICENSE](LICENSE) file for more details.999999999998
+Feel free to update the host and port number to any other choice values
+For testing in Postman, try:
+'''    {
+        "question": "which is bigger? 9.11 or 9.9?",
+        "model": "llama-3.1-8b-instant",
+        "temperature": 0.2
+    }'''
